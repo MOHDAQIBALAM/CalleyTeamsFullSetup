@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-23T03:14:23 IST" name="Default suite" finished-at="2025-03-23T03:17:50 IST" duration-ms="207194">
+    <groups>
+    </groups>
+    <test started-at="2025-03-23T03:14:23 IST" name="Default test" finished-at="2025-03-23T03:17:50 IST" duration-ms="207194">
+      <class name="test.FullSetupTest">
+        <test-method is-config="true" signature="reference()[pri:0, instance:test.FullSetupTest@28261e8e]" started-at="2025-03-23T03:14:22 IST" name="reference" finished-at="2025-03-23T03:14:23 IST" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reference -->
+        <test-method signature="RUNALL(java.util.Map,org.testng.ITestContext)[pri:0, instance:test.FullSetupTest@28261e8e]" started-at="2025-03-23T03:14:24 IST" name="RUNALL" data-provider="TestData" finished-at="2025-03-23T03:17:50 IST" duration-ms="205967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstColumn=FirstName, ListName=CSVUPLOADFILENAME, Password=Protect@123#45%, Run=Yes, SecondColumn=Phone, TestScenario=FullSetupTest, ThirdColumn=Notes, Username=mohdaqibalam234@yopmail.com, WhatsappNo=8882198524, Your_Email=@yopmail.com, Your_Name=Agent, Your_Name1=Agent Testing, Your_Password=Protect@123#45%}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@75e710b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RUNALL -->
+      </class> <!-- test.FullSetupTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
